@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="JS\node_modules\**" />
+    <Content Remove="JS\node_modules\**" />
+    <EmbeddedResource Remove="JS\node_modules\**" />
+    <None Remove="JS\node_modules\**" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <SupportedPlatform Include="browser" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.0.0-rc.2.21480.10" />
+    <PackageReference Include="Microsoft.JSInterop.WebAssembly" Version="6.0.0-rc.2.21480.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="JS\temp\" />
+  </ItemGroup>
+
+</Project>
