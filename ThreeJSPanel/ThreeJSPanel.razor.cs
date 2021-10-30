@@ -14,8 +14,6 @@ namespace ThreeJSPanel
     {
         private string debug = string.Empty;
         private ElementReference _canvas;
-                
-        private int _lightIterationFactor = 2;
 
         [Inject] IJSRuntime? JSRuntime { get; set; }
         private IJSUnmarshalledRuntime? UnmarshalledRuntime;

@@ -27,7 +27,7 @@
     <Folder Include="JS\temp\" />
   </ItemGroup>
 
-  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+  <Target Name="PreBuild" AfterTargets="PreBuildEvent">
     <Exec Condition="$(Configuration) == 'Debug'" Command="cd JS &amp;&amp; npx snowpack build" />
     <Exec Condition="$(Configuration) == 'Release'" Command="cd JS &amp;&amp; npx snowpack build" />
   </Target>
