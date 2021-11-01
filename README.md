@@ -1,9 +1,10 @@
 # MauiThreeJS
 Sample project layout for using ThreeJS in a Blazor-Maui project
 
-## This will not compile as-is!!
+![image](https://user-images.githubusercontent.com/7821384/139748537-c0efdc08-96fd-4ca3-b531-bc1b1827d47d.png)
 
-Take a look at the JS folder under the ThreeJSPanel project.  It has code that is VERY similar to my old DirectX code.  The other magic is inside the csproj file of the ThreeJSPanel project.  There's a section to kick off the npm compilation before the dotnet build.
+
+Take a look at the JS folder under the ThreeJSPanel project.  It has code that is VERY similar to my old DirectX code.  The other magic is inside the csproj file of the ThreeJSPanel project.  There's a section to kick off the npm compilation before the dotnet build.  You can use either the BlazorThreeJS project or the MauiThreeJS project to start it off.  
 
 ## Why would you want to do this?
 
