@@ -4,7 +4,9 @@ VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiThreeJS", "MauiThreeJS\MauiThreeJS.csproj", "{04EED5E4-F08B-4540-992D-ED401ABD4FE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeJSPanel", "ThreeJSPanel\ThreeJSPanel.csproj", "{978D493F-6CAC-443A-8004-4D2A6B9D7954}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreeJSPanel", "ThreeJSPanel\ThreeJSPanel.csproj", "{978D493F-6CAC-443A-8004-4D2A6B9D7954}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorThreeJS", "BlazorThreeJS\BlazorThreeJS.csproj", "{3A3F4AC0-4C09-46F9-92F0-9FE60E963AB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,6 +24,10 @@ Global
 		{978D493F-6CAC-443A-8004-4D2A6B9D7954}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{978D493F-6CAC-443A-8004-4D2A6B9D7954}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{978D493F-6CAC-443A-8004-4D2A6B9D7954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A3F4AC0-4C09-46F9-92F0-9FE60E963AB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A3F4AC0-4C09-46F9-92F0-9FE60E963AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A3F4AC0-4C09-46F9-92F0-9FE60E963AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A3F4AC0-4C09-46F9-92F0-9FE60E963AB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
